@@ -7,7 +7,6 @@
 #icon-menu{
   width: 15px;
   padding: 0 25px;
-
 }
 
 .search-tool{
@@ -55,13 +54,14 @@
   position: relative;
 }
 
+#navbar{
+  background: #fff;
+}
 
 .container{
   display: flex;
   align-items: center;
-
   justify-content: space-between;
-
   background: gray;
 }
 
@@ -75,19 +75,86 @@
 .recomendations{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+
   justify-content: center;
-  background-color: green;
+  background-color: #f9f9f9;
   width: 500px;
 }
 
 .recomendations p{
-  justify-content: flex-start !important;  
+  margin-left: 0px;
 }
 
-hr{
-  border: solid gray;
-  border-width: 1px 100px;
-  
-  border-radius: 5px;
+.container-co2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 500px;
+  height: 35px;
+  background: #f9f9f9;
 }
+
+iframe, input, button{
+  border: none;
+}
+
+.description{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 300px;
+
+  margin-right: 300px;
+}
+
+
+hr{
+  border: solid lightgray;
+  border-width: 0.5px 250px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+/* NESTED VIDEO + DESCRIPTION */
+#co3{
+  width: 400px;
+  background: #f9f9f9;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+/* VIDEO ITSELF */
+#co4{
+  width: 180px;
+  height: 100px;
+  background: #333;
+  margin-right: 5px;
+}
+
+
+/* TEXT OF VIDEO */
+#co5{
+  height: 100px;
+}
+
+#co5 h3{
+  font-size: 1.2rem;
+  padding-bottom: 5px;
+  margin: 0px;
+}
+
+#co5 h4, p{
+  font-size: 1rem;
+  font-weight: normal;
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+#player{
+  margin: 35px 0px 10px 30px;
+}
+
