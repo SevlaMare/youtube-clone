@@ -1,0 +1,52 @@
+#icon-search{
+  width: 10px;
+  padding: 0 15px;
+}
+
+
+#icon-menu{
+  width: 10px;
+  padding: 0 15px;
+}
+
+
+#input-search{
+  padding-right: 350px;
+}
+
+
+#logo{
+  width: 80px;
+}
+
+
+#icon-cam{
+  width: 20px;
+}
+
+#icon-bell{
+  width: 15px;
+}
+
+#icon-grid{
+  width: 15px;
+}
+
+#icon-avatar{
+  background: #333;
+
+  width: 30px;
+  height: 30px;
+
+  border-radius: 20px;
+}
+
+
+.container{
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+
+  background: gray;
+}
