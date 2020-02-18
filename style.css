@@ -158,3 +158,62 @@ hr{
   margin: 35px 0px 10px 30px;
 }
 
+#interactions-bar img{
+  width: 20px;
+}
+
+#interactions-bar{
+  background-color: red;
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 50px;
+  justify-content: space-around;
+}
+
+.like-bar{
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  background-color: royalblue;
+  align-items: center;
+}
+
+#chanel{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#user-chanel{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 400px;
+  height: 50px;
+  background-color: seagreen;
+}
+
+#chanel-info{
+  margin-left: 10px;
+}
+
+#chanel-info h3{
+ margin: 0em;
+}
+
+#description{
+  margin: 15px 40px;
+}
+
+#total-comments{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center ;
+}
+
+#total-comments img{
+  margin-left: 20px;
+  width: 20px;
+}
