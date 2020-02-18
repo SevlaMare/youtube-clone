@@ -1,54 +1,54 @@
-body{
-  background-color:#f9f9f9 ;
+body {
+  background-color:#f9f9f9;
 }
 
-#icon-search{
+#icon-search {
   width: 10px;
   padding: 0 15px;
 }
 
 
-#icon-menu{
+#icon-menu {
   width: 15px;
   padding: 0 25px;
 }
 
-.search-tool{
+.search-tool {
  padding: 0;
  margin: 0;
 }
 
-#input-search{
+#input-search {
   padding-right: 350px;
-  margin: 0px;
+  margin: 0;
   border-radius: 2px 0 0 2px;
 }
 
-#search-button{
+#search-button {
   padding-right: 5px;
   margin-right: 0px;
   position: absolute;
   border-radius: 0 2px 2px 0;
 }
 
-#logo{
+#logo {
   width: 80px;
 }
 
 
-#icon-cam{
+#icon-cam {
   width: 20px;
 }
 
-#icon-bell{
+#icon-bell {
   width: 15px;
 }
 
-#icon-grid{
+#icon-grid {
   width: 15px;
 }
 
-#icon-avatar{
+#icon-avatar {
   background: #333;
 
   width: 30px;
@@ -58,100 +58,91 @@ body{
   position: relative;
 }
 
-#navbar{
+#navbar {
   background: #fff;
 }
 
-.container{
+.container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background: #f9f9f9;
 }
 
-.menu-icons{
+.menu-icons {
   width: 130px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.recomendations{
+.recomendations {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-
-  /* justify-content: center; */
   background-color: #f9f9f9;
   width: 500px;
   margin-left: 50px;
 }
 
-.recomendations p{
-  margin-left: 0px;
+.recomendations p {
+  margin-left: 0;
 }
 
-.container-co2{
+.container-co2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   width: 500px;
   height: 35px;
   background: #f9f9f9;
 }
 
-iframe, input, button{
+iframe, input, button {
   border: none;
 }
 
-.description{
+.description {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   width: 300px;
-
   margin-right: 300px;
 }
 
-
-hr{
+hr {
   border: solid lightgray;
   border-width: 0.5px 250px;
   margin-top: 5px;
   margin-bottom: 15px;
 }
 
-/* NESTED VIDEO + DESCRIPTION */
-#co3{
+#co3 {
   width: 400px;
   background: #f9f9f9;
   display: flex;
   margin-bottom: 10px;
 }
 
-/* VIDEO ITSELF */
-#co4{
+#co4 {
   width: 180px;
   height: 100px;
   background: #333;
   margin-right: 5px;
 }
 
-
-/* TEXT OF VIDEO */
-#co5{
+#co5 {
   height: 100px;
 }
 
-#co5 h3{
+#co5 h3 {
   font-size: 1.2rem;
   padding-bottom: 5px;
-  margin: 0px;
+  margin: 0;
 }
 
-#co5 h4, p{
+#co5 h4, p {
   font-size: 1rem;
   font-weight: normal;
   color: #333;
@@ -159,16 +150,15 @@ hr{
   margin: 0;
 }
 
-#player{
-  margin: 35px 0px 10px 30px;
+#player {
+  margin: 35px 0 10px 30px;
 }
 
-#interactions-bar img{
+#interactions-bar img {
   width: 20px;
 }
 
-#interactions-bar{
-  /* background-color: red; */
+#interactions-bar {
   display: flex;
   align-items: center;
   width: 350px;
@@ -176,123 +166,117 @@ hr{
   justify-content: space-around;
 }
 
-.like-bar{
+.like-bar {
   width: 700px;
   display: flex;
   justify-content: space-between;
-  /* background-color: royalblue; */
   align-items: center;
 }
 
-#chanel{
+#chanel {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-#user-chanel{
+#user-chanel {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   width: 400px;
   height: 50px;
-  /* background-color: seagreen; */
 }
 
-#chanel-info{
+#chanel-info {
   margin-left: 10px;
 }
 
-#chanel-info h3{
+#chanel-info h3 {
  margin: 0em;
 }
 
-#description{
+#description {
   margin: 15px 40px;
   width: 800px;
 }
 
-#total-comments{
+#total-comments {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   align-content: center ;
 }
 
-#total-comments img{
+#total-comments img {
   margin-left: 20px;
   width: 20px;
 }
 
 
-.insert-comment{
+.insert-comment {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  
-  margin: 30px 0px;
+  margin: 30px 0;
 }
 
-.comment{
+.comment {
   width: 600px;
   margin-left: 15px;
   border-bottom: 1px solid #333;
 }
 
-.comment-head{
+.comment-head {
   display: flex;
   flex-direction: flex-start;
   align-content: center;
   margin-bottom: 40px;
 }
 
-.comment-icons-bar{
+.comment-icons-bar {
   display: flex;
   align-items: center;
   align-content: center;
-
   height: 20px;
 }
 
-.comment-icons-bar img{
+.comment-icons-bar img {
   width: 20px;
 }
 
-.comment-icons-text{
+.comment-icons-text {
   display: flex;
   align-items: center;
-
   height: 20px;
 }
 
-.comment-icons-text span{
+.comment-icons-text span {
   margin-left: 5px;
 }
 
-#comment-msg{
-  margin: 10px 0px 25px 0px;
+#comment-msg {
+  margin: 10px 0 25px 0;
 }
 
-.commente-message{
+.commente-message {
   word-break: break-all;
   width: 800px;
 }
 
-.comment-text-group{
+.comment-text-group {
   display: flex;
   flex-direction: column;
   align-content: flex-start;
   margin-left: 15px;
 }
 
-.comment-icons-bar p{
+.comment-icons-bar p {
   margin-left: 5px;
   margin-right: 10px;
 }
 
-.main-page{
+.main-page {
   display: flex;
   justify-content: flex-start;
   width: auto;
 }
-
