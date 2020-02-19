@@ -4,7 +4,7 @@
 
 ![screenshot](https://github.com/SevlaMare/youtube-clone/blob/master/images/screenshot.png)
 
--The page is not responsible, it was build for a screen with 1600px<br>
+-The page is not responsible, it was build for a wide monitor screen<br>
 
 ## Requirements
 
