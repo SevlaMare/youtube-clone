@@ -4,7 +4,7 @@
 
 ![screenshot](https://github.com/SevlaMare/youtube-clone/blob/master/images/screenshot.png)
 
-Additional description about the project and its features.
+This page is not responsible, was build for a wide screen monitor.
 
 ## Built With
 
