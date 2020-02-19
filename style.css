@@ -292,7 +292,7 @@ hr {
 }
 
 .main-page {
-  display: flex;
-  justify-content: flex-start;
-  width: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
