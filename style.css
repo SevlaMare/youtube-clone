@@ -23,6 +23,8 @@ body {
   padding-right: 350px;
   margin: 0;
   border-radius: 2px 0 0 2px;
+  border: solid lightgray 1px;
+  height: 12px;
 }
 
 #search-button {
@@ -61,6 +63,7 @@ body {
 
 #navbar {
   background: #fff;
+  height: 60px;
 }
 
 .container {
@@ -295,4 +298,5 @@ hr {
     margin: auto;
     display: flex;
     justify-content: center;
+    align-content: center;
 }
