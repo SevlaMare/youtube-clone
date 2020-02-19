@@ -5,9 +5,7 @@
 ![screenshot](https://github.com/SevlaMare/youtube-clone/blob/master/images/screenshot.png)
 
 The project features includes:<br>
--Form fields properties<br>
--Deal with Buttons<br>
--CSS Style and good pratices<br>
+-The page is not responsible, it was build for a screen with 1600px<br>
 
 ## Requirements
 
