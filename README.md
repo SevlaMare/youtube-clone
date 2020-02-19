@@ -1,6 +1,6 @@
-# Project Name
+# Youtube Player Clone
 
-> One paragraph statement about the project.
+> This is a youtube video player interface clone.
 
 ![screenshot](https://github.com/SevlaMare/youtube-clone/blob/master/images/screenshot.png)
 
@@ -8,9 +8,9 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- CSS3 and HTML5
+- Sctikler CI
+- VScode, Git and Github
 
 ## Live Demo
 
