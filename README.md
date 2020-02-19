@@ -18,24 +18,33 @@ Additional description about the project and its features.
 
 ## Requirements
 <ul>
-  <h3>Header</h3>
-  <li>Embedded image that represents a logo</li>
-  <li>Has the icons align with text using Flexblox</li>
+  <h3>Navigation bar</h3>
+  <li>It has an embedded image that represents a logo.</li>
+  <li>The logo is aligned to the leftmost part of the navbar.</li>
+  <li>It has an input tag that represents a search bar.</li>
+  <li>The search bar is aligned to the middle of the navbar.</li>
+  <li>It has a button tag that represents the search button.</li>
+  <li>The search button is at the end (rightmost part) of the search bar.</li>
+  <li>It has at least three embedded images on the rightmost part of the navbar that represent icons and/or an avatar.</li>
 </ul>
 
 <ul>
-  <h3>Form</h3>
-  <li>Have all input field with they own correct properties</li>
-  <li>Has the icons align with text using Flexblox</li>
-  <li>The button should have the correct style</li>
-  <li>Has a footer</li>
+  <h3>Video</h3>
+  <li>It is displayed.</li>
+  <li>It shows the video title.</li>
+  <li>It shows the number of views.</li>
+  <li>The search bar is aligned to the middle of the navbar.</li>
+  <li>It has like and dislike icons.</li>
+  <li>It has a share button.</li>
+  <li>It shows the avatar of the user who uploaded the video.</li>
+  <li>It has a subscribe button.</li>
 </ul>
 
 <ul>
-  <h3>Others</h3>
-  <li>Top right button</li>
-  <li>Bottom footer</li>
-  <li>Use the right main colors</li>
+  <h3>Sidebar Recommended videos</h3>
+  <li>It shows the recommended video’s thumbnail preview (as image not as an actual video).</li>
+  <li>It shows the title of the video.</li>
+  <li>It shows the number of views.</li>
 </ul>
 
 ## Getting Started
