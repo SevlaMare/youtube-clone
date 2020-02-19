@@ -1,6 +1,6 @@
 # youtube-clone
 
-> This is a youtube.com , here we are cloning the signup.
+> This is a youtube video player page clone.
 
 ![screenshot](https://github.com/SevlaMare/mint-sign-up-clone/blob/master/images/screenshotpng.png)
 
