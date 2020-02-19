@@ -2,7 +2,7 @@
 
 > This is a youtube video player page clone.
 
-![screenshot](https://github.com/SevlaMare/youtube-clone//master/images/screenshot.png)
+![screenshot](https://github.com/SevlaMare/youtube-clone/blob/master/images/screenshot.png)
 
 The project features includes:<br>
 -Form fields properties<br>
