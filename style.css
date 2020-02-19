@@ -48,7 +48,7 @@ body {
   width: 15px;
 }
 
-#icon-avatar {
+.icon-avatar {
   background: #333;
 
   width: 30px;
@@ -118,31 +118,31 @@ hr {
   margin-bottom: 15px;
 }
 
-#co3 {
+.co3 {
   width: 400px;
   background: #f9f9f9;
   display: flex;
   margin-bottom: 10px;
 }
 
-#co4 {
+.co4 {
   width: 180px;
   height: 100px;
   background: #333;
   margin-right: 5px;
 }
 
-#co5 {
+.co5 {
   height: 100px;
 }
 
-#co5 h3 {
+.co5 h3 {
   font-size: 1.2rem;
   padding-bottom: 5px;
   margin: 0;
 }
 
-#co5 h4, p {
+.co5 h4, p {
   font-size: 1rem;
   font-weight: normal;
   color: #333;
@@ -254,7 +254,7 @@ hr {
   margin-left: 5px;
 }
 
-#comment-msg {
+.comment-msg {
   margin: 10px 0 25px 0;
 }
 
