@@ -2,7 +2,7 @@
 
 > One paragraph statement about the project.
 
-![screenshot](./app_screenshot.png)
+![screenshot](https://github.com/SevlaMare/youtube-clone/blob/master/images/screenshot.png)
 
 Additional description about the project and its features.
 
@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/SevlaMare/youtube-clone/blob/master/images/screenshot.png)
+[Live Demo Link](https://sevlamare.github.io/youtube-clone/)
 
 
 ## Getting Started
@@ -49,7 +49,7 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
+- Github: [@githubhandle](https://github.com/SevlaMare/)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
