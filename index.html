@@ -1,30 +1,33 @@
 <!DOCTYPE html>
-<hmtl>
+<html lang="en-US">
 <head>
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="style.css" rel=stylesheet>
   <link href="path/to/font-awesome/css/font-awesome.min.css" rel="stylesheet" >
+  <title>Youtube Clone</title>
 </head>
 
 
 <body>
   <nav class="container" id="navbar">
     <div class="container-co1">
-      <img src="images/bars-solid.svg" id="icon-menu">
-      <img src="images/youtube_icon.png" id="logo">
+      <img src="images/bars-solid.svg" id="icon-menu" alt="icon">
+      <img src="images/youtube_icon.png" id="logo" alt="icon">
     </div>
 
     <div class="search-tool">
       <input id="input-search" type="text" placeholder="Search">
       <button id="search-button">
-        <img src="images/search_icon.png" id="icon-search">
+        <img src="images/search_icon.png" id="icon-search" alt="icon">
       </button>
     </div>
 
     <div class="menu-icons">
-      <img src="images/camera_icon.png" id="icon-cam">
-      <img src="images/grid_icon.png" id="icon-grid">
-      <img src="images/bell_icon.png" id="icon-bell">
-      <div id="icon-avatar"></div>
+      <img src="images/camera_icon.png" id="icon-cam" alt="icon">
+      <img src="images/grid_icon.png" id="icon-grid" alt="icon">
+      <img src="images/bell_icon.png" id="icon-bell" alt="icon">
+      <div class="icon-avatar"></div>
     </div>
   </nav>
 
@@ -38,15 +41,15 @@
         <div class="like-bar">
           <div id="views">300,000 views  17 feb. 2020</div>
           <div id="interactions-bar">
-              <img src="images/bell_icon.png" alt="" >
+              <img src="images/bell_icon.png" alt="icon" >
               <p>30,000</p>
-              <img src="images/bell_icon.png" alt="">
+              <img src="images/bell_icon.png" alt="icon">
               <p>1500</p>
-              <img src="images/bell_icon.png" alt="">
+              <img src="images/bell_icon.png" alt="icon">
               <p>Share</p>
-              <img src="images/bell_icon.png" alt="">
+              <img src="images/bell_icon.png" alt="icon">
               <p>Save</p>
-            <img src="images/bell_icon.png" alt="">
+            <img src="images/bell_icon.png" alt="icon">
           </div>
         </div>
   
@@ -54,7 +57,7 @@
   
         <div id="chanel">
           <div id="user-chanel">
-            <div id="icon-avatar"></div>
+            <div class="icon-avatar"></div>
             <div id="chanel-info">
               <h3>ElonMusk</h3>
               <p>1,000,000 subscribers</p>
@@ -76,12 +79,12 @@
         </div>
   
         <div class="insert-comment">
-          <div id="icon-avatar"></div>
+          <div class="icon-avatar"></div>
           <input class="comment" type="text" placeholder="Add a public comment...">
         </div>
   
         <div class="comment-head">
-          <div id="icon-avatar"></div>
+          <div class="icon-avatar"></div>
           <div class="comment-text-group">
             <div class="comment-icons-text">
               <h3>Username</h3>
@@ -89,7 +92,7 @@
             </div>
     
             <div class="commente-message">
-              <p id="comment-msg">
+              <p class="comment-msg">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas nemo dolore sed, aperiam accusantium non ea at ex quae laboriosam iusto minima corporis atque commodi quia fuga aut! Tempora, impedit?
               </p>
             </div>
@@ -107,7 +110,7 @@
         </div>
   
         <div class="comment-head">
-          <div id="icon-avatar"></div>
+          <div class="icon-avatar"></div>
           <div class="comment-text-group">
             <div class="comment-icons-text">
               <h3>Username</h3>
@@ -115,7 +118,7 @@
             </div>
     
             <div class="commente-message">
-              <p id="comment-msg">
+              <p class="comment-msg">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas nemo dolore sed, aperiam accusantium non ea at ex quae laboriosam iusto minima corporis atque commodi quia fuga aut! Tempora, impedit?
               </p>
             </div>
@@ -133,7 +136,7 @@
         </div>
   
         <div class="comment-head">
-          <div id="icon-avatar"></div>
+          <div class="icon-avatar"></div>
           <div class="comment-text-group">
             <div class="comment-icons-text">
               <h3>Username</h3>
@@ -141,7 +144,7 @@
             </div>
     
             <div class="commente-message">
-              <p id="comment-msg">
+              <p class="comment-msg">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas nemo dolore sed, aperiam accusantium non ea at ex quae laboriosam iusto minima corporis atque commodi quia fuga aut! Tempora, impedit?
               </p>
             </div>
@@ -163,15 +166,20 @@
       </div>
     </div>
     
-    <div class="recomendations">
+    <aside class="recomendations">
       <div class="container-co2">
         <p>Up next</p>
-        <p>AUTOPLAY</p>
+
+        <div class="autoplay">
+          <p>AUTOPLAY</p>
+          <img src="images/bell_icon.png" alt="icon">
+        </div>
+
       </div>
   
-      <div id="co3">
-        <div id="co4"></div>
-        <div id="co5">
+      <div class="co3">
+        <img src="images/side1.png" alt="side image 1">
+        <div class="co5">
             <h3>Talking Tech with Elon Musk!</h3>
             <h4>Channel</h4>
             <p>999K views</p>
@@ -179,37 +187,37 @@
         </div>
         
       <hr>
-      <div id="co3">
-        <div id="co4"></div>
-        <div id="co5">
+      <div class="co3">
+        <img src="images/side2.png" alt="side image 2">
+        <div class="co5">
           <h3>Talking Tech with Elon Musk!</h3>
           <h4>Channel</h4>
           <p>999K views</p>
         </div>
       </div>
   
-      <div id="co3">
-        <div id="co4"></div>
-        <div id="co5">
+      <div class="co3">
+        <img src="images/side3.png" alt="side image 3">
+        <div class="co5">
           <h3>Talking Tech with Elon Musk!</h3>
           <h4>Channel</h4>
           <p>999K views</p>
         </div>
       </div>
         
-      <div id="co3">
-        <div id="co4"></div>
-        <div id="co5">
+      <div class="co3">
+        <img src="images/side3.png" alt="side image 4">
+        <div class="co5">
           <h3>Talking Tech with Elon Musk!</h3>
           <h4>Channel</h4>
           <p>999K views</p>
         </div>
       </div>
-    </div>
+    </aside>
 
   </main>
 </body>
-</hmtl>
+</html>
 
 
 
