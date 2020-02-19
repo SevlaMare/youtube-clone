@@ -99,6 +99,17 @@ body {
   background: #f9f9f9;
 }
 
+.container-co2 img {
+  width: 20px;
+}
+
+.autoplay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 120px;
+}
+
 iframe, input, button {
   border: none;
 }
